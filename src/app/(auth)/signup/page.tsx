@@ -64,14 +64,14 @@ export default function LoginPage() {
           type="submit"
           className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition duration-300"
         >
-          Login
+         Sign up
         </button>
       </form>
 
       {/* Signup Link */}
       <p className="mt-4 text-gray-600">
         Don't have an account?{' '}
-        <a href="/auth/signup" className="text-blue-600 hover:underline">
+        <a href="/signup" className="text-blue-600 hover:underline">
           Sign up
         </a>
       </p>
